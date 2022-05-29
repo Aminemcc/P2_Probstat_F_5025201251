@@ -67,6 +67,11 @@ nilai H1 :
 
 ![3b](https://user-images.githubusercontent.com/82025946/170874597-b4cb4901-493f-4bea-882c-089a30959727.jpg)
 
+# Nomor 3.C
+Lakukan Uji Statistik (df = 2)
+
+Gunakan plotdist 
+
 
 
 
