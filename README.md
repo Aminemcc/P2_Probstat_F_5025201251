@@ -51,11 +51,21 @@ dilihat dari p-value mendekati 0, maka H0 benar dan klaim diatas benar
 
 # Nomor 3
 
+![tabel nomor 3](https://user-images.githubusercontent.com/82025946/170874351-562638a2-8c20-416f-a202-af25754f48fe.jpg)
 
+#Nomor 3.A
 
+nilai H0 :
 
+![3ah0](https://user-images.githubusercontent.com/82025946/170874306-768e28de-51b2-421f-9801-9fc94acd075d.jpg)
 
+nilai H1 :
 
+![3ah1](https://user-images.githubusercontent.com/82025946/170874308-24247f60-5dd8-4dc8-8256-ebee0af8b114.jpg)
+
+# Nomor 3.B
+
+![3b](https://user-images.githubusercontent.com/82025946/170874597-b4cb4901-493f-4bea-882c-089a30959727.jpg)
 
 
 
