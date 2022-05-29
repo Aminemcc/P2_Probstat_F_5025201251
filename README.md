@@ -34,6 +34,28 @@ Dapat terlihat bahwa perbedaannya tidak terlalu signifikan sehingga dapat ditari
 
 # Nomor 2
 
+# Nomor 2.A
+
+Tidak setuju, karena 20.000 KM per tahun = 2000 per bulan = 66.666 km per hari, terlalu banyak klaimnya menurut saya
+
+# Nomor 2.B
+masukkan nilai rata rata, standar deviasi, banyak sampel kedalam fungsi tsum.test untuk mengecek hipotesa
+
+![2b](https://user-images.githubusercontent.com/82025946/170873884-0cf2b80b-ab70-4f2d-b6e7-4d03168d96b8.jpg)
+
+# Nomor 2.C
+
+null hipotesisnya adalah H0 : μ = 20000 dan alternatif hipotesisnya adalah H1 : μ > 20000.
+
+dilihat dari p-value mendekati 0, maka H0 benar dan klaim diatas benar
+
+# Nomor 3
+
+
+
+
+
+
 
 
 
