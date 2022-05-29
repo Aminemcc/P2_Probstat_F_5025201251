@@ -70,8 +70,76 @@ nilai H1 :
 # Nomor 3.C
 Lakukan Uji Statistik (df = 2)
 
-Gunakan plotdist 
+Gunakan plotdist, tetapi sebelum itu install mosaic agar bisa menggunakan plotdist()
 
+![3c](https://user-images.githubusercontent.com/82025946/170875022-15cc7b32-66d5-41be-93e5-439c8b26d167.jpg)
+
+Hasilnya :
+
+![plotdist](https://user-images.githubusercontent.com/82025946/170875239-64b03760-65b3-4220-9b22-caa520401e47.jpg)
+
+# Nomor 3.D
+
+Nilai Kritikal alpha = 0.05 :
+
+![3d](https://user-images.githubusercontent.com/82025946/170875359-ae0541f4-aa45-4e63-a9fa-25d30ca88bcf.jpg)
+
+# Nomor 3.E
+
+Keputusan dapat dibuat dengan t.test
+
+# Nomor 3.F
+
+Keesimpulan yang didapatkan yaitu perbedaan rata-rata yang terjadi tidak ada jika dilihat dari uji statistik. Akan tetapi tidak signifikan jika dipengaruhi nilai kritikal.
+
+# Nomor 4
+Seorang Peneliti sedang meneliti spesies dari kucing di ITS . Dalam penelitiannya ia mengumpulkan data tiga spesies kucing yaitu kucing oren, kucing hitam dan kucing putih dengan panjangnya masing-masing. Jika : diketahui dataset https://intip.in/datasetprobstat1 H0 : Tidak ada perbedaan panjang antara ketiga spesies atau rata-rata panjangnya sama. Maka Kerjakan atau Carilah:
+
+# Nomor 4.A
+
+![4a](https://user-images.githubusercontent.com/82025946/170875541-78419461-f558-4663-947c-eb6954ad3be3.jpg)
+
+Lakukan Grouping
+
+![4a2](https://user-images.githubusercontent.com/82025946/170875777-e17670d9-bdcd-4b9c-86fb-104b064ed1f5.jpg)
+
+# Nomor 4.B
+
+![4b](https://user-images.githubusercontent.com/82025946/170875849-af2d74f9-c88e-473c-8f4f-c8cba13f9f7c.jpg)
+
+Setelah di jalankan maka nilai p-value = 0.8054. Kesimpulan yang didapatkan yaitu Bartlett's K-squared memiliki nilai sebesar 0.43292 dan df bernilai 2
+
+# Nomor 4.C
+
+dengan fungsi qqnorm dan qqline, didapat plot dibawah
+
+```
+qqnorm(group1$Length)
+qqline(group1$Length)
+```
+
+![qqnormline](https://user-images.githubusercontent.com/82025946/170875809-52e7b3e9-ecc4-42ce-b102-4c0ec1def665.jpg)
+
+# Nomor 4.D
+
+Setelah di jalankan maka nilai p-value = 0.8054.
+
+# Nomor 4.E
+
+langkah pertama :
+```
+model1 <- lm(Length~Group, data=myFile)
+```
+
+lalu lanjut jalankan anova
+```
+anova(model1)
+```
+
+lalu lanjut model post-hoc Tukery HSD
+```
+TukeyHSD(aov(model1))
+```
 
 
 
