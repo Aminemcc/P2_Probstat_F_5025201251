@@ -14,7 +14,7 @@ Kita cari Standar Deviasi dengan fungsi sd()
 
 # Nomor 1.B
 
-Untuk mencari nilai dari t(p-value) dapat menggunakan fungsi t.test() dengan nilai alpha = 5% atau 0.05
+Untuk mencari nilai dari t(p-value) dapat menggunakan fungsi t.test()
 
 ![1b](https://user-images.githubusercontent.com/82025946/170873066-426f1cce-58be-41f8-b150-dc0543f954ed.jpg)
 
@@ -22,7 +22,7 @@ p-value = 0.0034
 
 # Nomor 1.C
 
-menggunakan t.test() lagi akan tetapi ada parameter yang diganti
+menggunakan t.test() dengan nilai alpha = 5% atau 0.05 
 
 ![1c](https://user-images.githubusercontent.com/82025946/170872981-a58143e8-737f-41c8-a435-09cafd6aca81.jpg)
 
